@@ -72,3 +72,17 @@ $route['admin/produk/hapus/(:num)'] = 'administrator/Produk_controller/hapus_pro
 
 $route['admin/produk/hapus_gambar/(:num)/(:num)'] =
     'administrator/Produk_controller/hapus_gambar/$1/$2';
+
+#admin ongkir18(ongkir)
+$route['admin/ongkir18'] = 'administrator/ongkir18_controller/index';
+$route['admin/ongkir18/tambah_ongkir18'] = 'administrator/ongkir18_controller/tambah_ongkir18';
+
+$route['admin/ongkir18/hapus/(:num)'] = 'administrator/ongkir18_controller/hapus_ongkir18/$1';
+$route['admin/ongkir18/ubah/(:num)'] = 'administrator/ongkir18_controller/ubah_ongkir18/$1';
+
+#pelanggan
+$route['login'] = 'pelanggan_controller/login';
+$route['register'] = 'pelanggan_controller/register';
+$route['logout'] = 'pelanggan_controller/logout';
+
+$route['profil'] = 'pelanggan_controller/profil';
